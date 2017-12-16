@@ -1,0 +1,15 @@
+TRACE: 2017/12/16 20:17:54 logging+to_a_file.go:85: MAIN Started
+TRACE: 2017/12/16 20:17:54 logging+to_a_file.go:91: Loop started
+INFO: 2017/12/16 20:17:54 logging+to_a_file.go:93: Counter value is: 0
+INFO: 2017/12/16 20:17:54 logging+to_a_file.go:93: Counter value is: 1
+INFO: 2017/12/16 20:17:54 logging+to_a_file.go:93: Counter value is: 2
+INFO: 2017/12/16 20:17:54 logging+to_a_file.go:93: Counter value is: 3
+INFO: 2017/12/16 20:17:54 logging+to_a_file.go:93: Counter value is: 4
+INFO: 2017/12/16 20:17:54 logging+to_a_file.go:93: Counter value is: 5
+INFO: 2017/12/16 20:17:54 logging+to_a_file.go:93: Counter value is: 6
+INFO: 2017/12/16 20:17:54 logging+to_a_file.go:93: Counter value is: 7
+INFO: 2017/12/16 20:17:54 logging+to_a_file.go:93: Counter value is: 8
+INFO: 2017/12/16 20:17:54 logging+to_a_file.go:93: Counter value is: 9
+WARNING: 2017/12/16 20:17:54 logging+to_a_file.go:95: The counter variable is not being used
+TRACE: 2017/12/16 20:17:54 logging+to_a_file.go:96: Loop completed
+TRACE: 2017/12/16 20:17:54 logging+to_a_file.go:87: MAIN Completed
