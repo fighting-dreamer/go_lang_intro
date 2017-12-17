@@ -31,7 +31,7 @@ func addToArchive(filename string, tw *tar.Writer) error {
 		return err
 	}
 	// Write the file contents to the tar file.
-	copied, err := io.Copy(tw, file)
+	copied, err := io.Copy(tw, file) // and returns the no. of units copied
 	if err != nil {
 		return err
 	}
@@ -96,7 +96,7 @@ func readArchive(archive string) error {
 		}
 		fmt.Printf("Contents of the file %s:\n", hdr.Name)
 		// Writing the file contents into Stdout.
-		fmt.Fprintf(os.Stdout, "\n%s", contents)
+		fmt.Fprintf(os.Stdout, "\n%s\n", contents)
 	}
 	return nil
 }
@@ -117,4 +117,5 @@ func main() {
 	err = readArchive(archive)
 	if err != nil {
 		log.Fatalf("Error while reading the tar file:%s", err)
-	} }
+	}
+}
